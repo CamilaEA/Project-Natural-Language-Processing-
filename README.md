@@ -34,8 +34,8 @@ Record a short video of your project to display here on your README. You can do 
 
 ## Project Description
 
-Write a description of the goal and/or problem that your application. Include descriptions of what text is being analyzed, either if its text files you are using to interpret text an how the user interacts with your project.
+The goal that this program works on solving is the translation of song titles. Overall, the program takes user input, which is intented to be song titles, and translates the text into Spanish. The text is interpreted through text files such as the words.txt that we have. The code works to find the index of one word in the word.txt and looks for it in the translation.txt for the translated word. This is done when the user input is received. Afterwards, the original song title and translated song title is returned. 
 
 ## NLP Techniques
 
-Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
+The natural language techniques that were implemented into our project were machine translations, user input, and text processing. These all work together in the methods such as prompt(); promptSummary(); createWordList(); and checkWords();. These methods are necessary for the NLP techniques because they accept user input, and processes the text inputed in order to use machine translations and return a translation in Spanish.
